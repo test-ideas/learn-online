@@ -3,8 +3,6 @@ title: How I teach
 description: some short article description
 ---
 
-# How I teach
-
 sdfasf asdfsdaf asdasdf
 
 asdfasdf asdfasdf
