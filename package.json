@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "serve": "npx @11ty/eleventy --serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:eleventy": "ELEVENTY_ENV=development npx @11ty/eleventy",
+    "build": "npm run build:eleventy",
+    "build:eleventy:prod": "ELEVENTY_ENV=production npx @11ty/eleventy",
+    "build:prod": "npm run build:eleventy:prod"
   },
   "keywords": [],
   "author": "",
